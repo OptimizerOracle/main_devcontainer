@@ -1,0 +1,37 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - scikit-learn
+  - seaborn
+  - scipy
+  - pip
+  - pyyaml
+  - pip:
+    - torch
+    - torchvision
+    - torchaudio
+    - transformers
+    - datasets
+    - tokenizers
+    - accelerate
+    - einops
+    - peft
+    - bitsandbytes
+    - sentence-transformers
+    - sentencepiece
+    - lightning
+    - huggingface_hub
+    - torchmetrics
+    - torcheval
+    - evaluate
+    - trl
+    - fire
+    - fastai
+    - xgboost
+    - lightgbm
+    - catboost
+    - cohere
+    - openai
